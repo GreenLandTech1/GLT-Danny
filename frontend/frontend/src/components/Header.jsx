@@ -9,6 +9,8 @@ function Header() {
                     <div>
                         <img src={LogoGlt} alt="Logo GreenLandTech" />
                     </div>
+
+                    
             </header>
         </div>
     );
