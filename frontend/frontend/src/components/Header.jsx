@@ -1,11 +1,13 @@
 import React from 'react';
+import LogoGlt from './../images/LogoGlt.png'
+
 
 function Header() {
     return (
         <div>
             <header>
                     <div>
-                        <img src="/home/danny/Desktop/GLT-Danny/frontend/frontend/public/images/LogoGlt.png" alt="Logo GreenLandTech" />
+                        <img src={LogoGlt} alt="Logo GreenLandTech" />
                     </div>
             </header>
         </div>
