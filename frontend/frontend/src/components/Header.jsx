@@ -1,6 +1,7 @@
 import React from 'react';
 import LogoGlt from './../images/LogoGlt.png'
 import login from './../images/login.png'
+import '.././header.css'
 
 
 function Header() {
@@ -8,14 +9,14 @@ function Header() {
         <div>
             <header>
                 <ul>
-                    <div>
+                    <div className='logo2'>
                         <img src="" alt="Logo" />
                     </div>
-                    <div>
-                        <img src={login} alt='Connexion' />
+                    <div className='login'>
+                        <img className='log-img' src={login} alt='Connexion' />
                     </div>
                 </ul>
-                    <div>
+                    <div className='logo1' >
                         <img src={LogoGlt} alt="Logo GreenLandTech" />
                     </div>
             </header>
