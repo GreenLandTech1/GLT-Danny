@@ -8,10 +8,10 @@ function Footer() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-6">
-                            <div style = "text-align: center">
+                            <div style={{textAlign: "center"}}>
                                 <h3>AgTech WILLEMS</h3>
-                                <h4 style = "color: #ffffff">by Euratechnologie</h4>
-                                <h4 style = "color: #ffffff">Company<span style="color: #cddc39"> GreenLand</span><span style="color: #f56111">Tech </span><i style="color: #cddc39" className="fa fa-leaf"></i></h4>
+                                <h4>by Euratechnologie</h4>
+                                <h4 >Company<span> GreenLand</span><span>Tech </span><i className="fa fa-leaf"></i></h4>
                             </div>    
                                 <div>
                                 <h4><i className="fa fa-map-marker"></i> Place de SAINTIGNON</h4>
