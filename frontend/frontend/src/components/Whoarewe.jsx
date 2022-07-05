@@ -1,10 +1,11 @@
 import React from 'react';
+import '../whoarewe.css'
 
 function Whoarewe(props) {
     return (
-        <section>
-            
-        </section>
+        <div>
+            <h1>Who are we</h1>
+        </div>
     );
 }
 
