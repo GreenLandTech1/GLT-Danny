@@ -34,7 +34,7 @@ function Header() {
             </nav>
 
             <div className="w-full bg-cover bg-center" style={{height:32 }}>
-                <div className="flex items-center justify-center h-full w-full">
+                <div className="flex items-center justify-center h-full w-full m-2 p-3">
                     <img className='logoGlt' src={LogoGlt} />
                 </div>
             </div>
