@@ -1,3 +1,7 @@
+header {
+    width: 100%;
+    height: 30rem;
+}
 
 .log-img {
     with: 50px;
@@ -10,3 +14,7 @@
     height: 50px;
 }
 
+.logoGlt {
+    width: 50%;
+    padding: 60px;
+}
