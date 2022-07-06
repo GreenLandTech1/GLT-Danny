@@ -2,9 +2,9 @@ import React from 'react';
 
 function Whoarewe(props) {
     return (
-        <div>
+        <section>
             <p className='text-center'>Who are we ?</p>
-        </div>
+        </section>
     );
 }
 
