@@ -1,12 +1,19 @@
 import React from 'react';
+import '../index.css'
 
-function Whoarewe(props) {
+function Whoarewe() {
     return (
         <section>
-            <article>
-                
-            </article>
+            <aside>
+                <article>
 
+                </article>
+            </aside>
+
+            <aside className='prose'>
+                <h3>Lorem Ipsum</h3>
+                <p>Quis ullamco sit aliquip do velit veniam tempor laboris nulla Lorem sit sunt laborum duis. Proident qui aliqua aute exercitation ullamco nostrud cupidatat excepteur consectetur. Tempor Lorem anim laborum id esse est sunt ad dolor. In cillum laboris ipsum in in sint adipisicing quis incididunt nisi reprehenderit eiusmod consectetur magna. Dolore elit amet sunt veniam nostrud deserunt culpa id.</p>
+            </aside>
         </section>
     );
 }
