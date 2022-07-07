@@ -9,12 +9,15 @@ import Features from './components/Features';
 import Howitworks from './components/Howitworks';
 import Signup from './components/Signup';
 import Team from './components/Team';
+import Login from './components/Login'
+import { BrowserRouter, Routes } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
     <Header />
     <Whoarewe />
     <Services />

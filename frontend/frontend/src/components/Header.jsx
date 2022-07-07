@@ -4,6 +4,8 @@ import login from './../images/login.png'
 import logoNav from './../images/logoNav.jpeg';
 import '.././index.css';
 import '.././header.css';
+import { Link, Route } from 'react-router-dom'
+import Login from './Login';
 
 
 function Header() {
@@ -27,7 +29,7 @@ function Header() {
                         </div>
 
                         <div className="hidden -mx-4 md:flex md:items-center">
-                            <a href="#" className="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600"><img className='login' src={login} /></a>
+                            <Route to="/login" className="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600"><img className='login' src={login} /></Route>
                         </div>
                     </div>
                 </div>
