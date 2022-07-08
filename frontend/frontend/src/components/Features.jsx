@@ -4,7 +4,7 @@ import '../index.css'
 function Features(props) {
     return (
         <div>
-            <h1 className='text-center'>Features</h1>
+            <h1>Features</h1>
         </div>
     );
 }

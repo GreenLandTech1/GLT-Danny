@@ -10,23 +10,20 @@ import Howitworks from './components/Howitworks';
 import Signup from './components/Signup';
 import Team from './components/Team';
 import Login from './components/Login'
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
-    <Header />
-    <Whoarewe />
-    <Services />
-    <Searching />
-    <Features />
-    <Howitworks />
-    <Signup />
-    <Team />
-    <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />  
+          <Route path="login" element={<Login />} />  
+        </Routes>
+      </BrowserRouter>
   </React.StrictMode>
 );
 

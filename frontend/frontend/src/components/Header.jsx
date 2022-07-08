@@ -4,8 +4,7 @@ import login from './../images/login.png'
 import logoNav from './../images/logoNav.jpeg';
 import '.././index.css';
 import '.././header.css';
-import { Link, Route } from 'react-router-dom'
-import Login from './Login';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -16,7 +15,7 @@ function Header() {
                     <div className="md:flex md:items-center md:justify-between">
                         <div className="flex justify-between items-center">
                             <div className="text-xl font-semibold text-gray-700">
-                                <a href="#" className="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl"><img src={logoNav}/></a>
+                                <Link to="/" className="text-gray-800 text-xl font-bold hover:text-gray-700 md:text-2xl"><img src={logoNav}/></Link>
                             </div>
 
                             <div className="flex md:hidden">
@@ -29,7 +28,7 @@ function Header() {
                         </div>
 
                         <div className="hidden -mx-4 md:flex md:items-center">
-                            <Route to="/login" className="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600"><img className='login' src={login} /></Route>
+                            <Link to="/login" className="block mx-4 mt-2 md:mt-0 text-sm text-gray-700 capitalize hover:text-blue-600"><img className='login' src={login} alt="Login" /></Link>
                         </div>
                     </div>
                 </div>
