@@ -1,14 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Whoarewe from './components/Whoarewe';
-import Services from './components/Services';
-import Searching from './components/Searching';
-import Features from './components/Features';
-import Howitworks from './components/Howitworks';
-import Signup from './components/Signup';
-import Team from './components/Team';
 import Login from './components/Login'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
